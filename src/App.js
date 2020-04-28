@@ -9,22 +9,17 @@ Amplify.configure(aws_exports);
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+    <ul>
+		  <li>
+		    <a href="/register.html">Register New UW Medicine COVID-19 Connect for SMS</a>
+		  </li>
+		  <li>
+		    <a href="">QnA Content Designer</a>
+		  </li>
+		  <li>
+		    <a href="">Log Analytics Dashboard</a>
+		  </li>
+		</ul>  
     );
   }
 }
