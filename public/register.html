@@ -22,9 +22,9 @@
     <div class="row justify-content-center mt-3">
       <div class="col-md-6">
         <h1>Register for SMS Alerts</h1>
-        <p>Enter your phone number below to sign up for COVID-19 check-up messages from University of Washington.</p>
+        <p>Enter your phone number below to sign up for COVID-19 check-up messages from UW Medicine.</p>
         <p>We don't share your contact information with anyone else. For more information, see our <a href="https://privacy.uw.edu/policies/">Privacy Policy</a>.</p>
-        <p>University of Washington alerts are only available to recipients in the United States.</p>
+        <p>UW Medicine alerts are only available to recipients in the United States.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -32,20 +32,24 @@
         <form>
           <div class="form-group">
             <label for="firstName" class="font-weight-bold">First name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Your first name" required>
+            <input type="text" class="form-control" id="firstName" placeholder="Patient first name" required>
           </div>
           <div class="form-group">
             <label for="lastName" class="font-weight-bold">Last name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Your last name" required>
+            <input type="text" class="form-control" id="lastName" placeholder="Patient last name" required>
+          </div>
+          <div class="form-group">
+            <label for="mrn" class="font-weight-bold">Medical Record Number</label>
+            <input type="text" class="form-control" id="mrn" placeholder="Patient MRN #####" required>
           </div>
           <label for="areaCode" class="font-weight-bold">Phone number</label>
           <div class="input-group">
             <span class="h3">(&nbsp;</span>
             <input type="tel" class="form-control" id="areaCode" placeholder="Area code" required>
             <span class="h3">&nbsp;)&nbsp;</span>
-            <input type="tel" class="form-control" id="phone1" placeholder="555" required>
+            <input type="tel" class="form-control" id="phone1" placeholder="888" required>
             <span class="h3">&nbsp;-&nbsp;</span>
-            <input type="tel" class="form-control" id="phone2" placeholder="0199" required>
+            <input type="tel" class="form-control" id="phone2" placeholder="8888" required>
           </div>
           <div id="form-response"></div>
           <button id="submit" type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
