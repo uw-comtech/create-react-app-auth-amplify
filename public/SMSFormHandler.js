@@ -53,13 +53,13 @@ $(document).ready(function() {
       
       $.ajax({
         type: 'POST',
-        url: 'https://5tve7pk601.execute-api.us-west-2.amazonaws.com/call/',
+        url: 'https://m4fzv9nhgg.execute-api.us-west-2.amazonaws.com/call',
         headers: {
           "Authorization": idTokenValue
         },
         data: data,
         success: function(res) {
-          $('#form-response').html('<div class="mt-3 alert alert-success" role="alert"><p>Congratulations! You&apos;ve successfully registered for SMS Alerts from ExampleCorp.</p><p>We just sent you a message. Follow the instructions in the message to confirm your subscription. We won&apos;t send any additional messages until we receive your confirmation.</p><p>If you decide you don&apos;t want to receive any additional messages from us, just reply to one of our messages with the keyword STOP.</p></div>');
+          $('#form-response').html('<div class="mt-3 alert alert-success" role="alert"><p>Congratulations! You&apos;ve successfully registered for UW Medicine COVID-19 Connect.</p><p>If you decide you don&apos;t want to receive any additional messages from us, just reply to one of our messages with the keyword STOP.</p></div>');
           $('#submit').prop('hidden', true);
           $('#unsubAll').prop('hidden', true);
           $('#submit').text('Preferences saved!');
