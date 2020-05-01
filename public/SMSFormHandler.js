@@ -59,7 +59,7 @@ $(document).ready(function() {
         },
         data: data,
         success: function(res) {
-          $('#form-response').html('<div class="mt-3 alert alert-success" role="alert"><p>Congratulations! You&apos;ve successfully registered for UW Medicine COVID-19 Connect.</p><p>If you decide you don&apos;t want to receive any additional messages from us, just reply to one of our messages with the keyword STOP.</p></div>');
+          $('#form-response').html('<div class="mt-3 alert alert-success" role="alert"><p>Congratulations! You&apos;ve successfully registered for UW Medicine COVID-19 Connect.</p><p>If you decide you don&apos;t want to receive any additional messages from us, just reply to one of our messages with the keyword CANCEL.</p></div>');
           $('#submit').prop('hidden', true);
           $('#unsubAll').prop('hidden', true);
           $('#submit').text('Preferences saved!');
