@@ -13,7 +13,7 @@ class App extends Component {
 		    <a href="/register.html">Register New Contact for UW Medicine COVID-19 Connect</a>
 		  </li>
 		  <li>
-		    <a href="">QnA Content Designer</a>
+		    <a href="https://7rk1cwechb.execute-api.us-west-2.amazonaws.com/prod/pages/designer">QnA Content Designer</a>
 		  </li>
 		  <li>
 		    <a href="">Log Analytics Dashboard</a>
